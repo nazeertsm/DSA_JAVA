@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.basicArray;
 //Traversal: Traverse through the elements of an array.
 //Insertion: Inserting a new element in an array.
 public class InsertEltInan_array {

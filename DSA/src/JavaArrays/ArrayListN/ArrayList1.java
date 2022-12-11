@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.ArrayListN;
 
 import java.io.IOException;
 import java.util.ArrayList;

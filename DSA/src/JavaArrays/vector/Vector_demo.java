@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.vector;
 
 import java.util.Vector;
 

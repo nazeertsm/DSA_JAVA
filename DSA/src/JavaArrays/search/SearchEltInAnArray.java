@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.search;
 
 public class SearchEltInAnArray {
     static int search(int[] arr, int n, int x)
@@ -11,7 +11,7 @@ public class SearchEltInAnArray {
 
         return -1;
     }
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         int[] arr = {20, 5, 7, 25};
         int x = 5;

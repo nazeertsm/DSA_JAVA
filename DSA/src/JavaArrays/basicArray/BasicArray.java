@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.basicArray;
 
 public class BasicArray {
 

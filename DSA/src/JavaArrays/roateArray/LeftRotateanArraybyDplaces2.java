@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.roateArray;
 //ReversaL Method:
 public class LeftRotateanArraybyDplaces2 {
     static void leftRotate(int[] arr, int d, int n)

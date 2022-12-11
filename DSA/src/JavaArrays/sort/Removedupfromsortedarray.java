@@ -1,17 +1,26 @@
-package JavaArrays;
-//Method 2: (Constant extra space)
-public class Removedupfromsortedarray2 {
-    static int remDups(int arr[], int n)
+package JavaArrays.sort;
+//Method 1: (Using extra space)
+public class Removedupfromsortedarray {
+    static int remDups(int[] arr, int n)
     {
+        int temp[] = new int[n];
+
+        temp[0] = arr[0];
+
         int res = 1;
 
         for(int i = 1; i < n; i++)
         {
-            if(arr[res - 1] != arr[i])
+            if(temp[res - 1] != arr[i])
             {
-                arr[res] = arr[i];
+                temp[res] = arr[i];
                 res++;
             }
+        }
+
+        for(int i = 0; i < res; i++)
+        {
+            arr[i] = temp[i];
         }
 
         return res;
@@ -40,5 +49,4 @@ public class Removedupfromsortedarray2 {
         }
 
     }
-
 }

@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.leaders;
 
 public class LeadersinanArrayproblem2 {
 

@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.largestelt;
 // JAVA Code for Find Second largest
 // element in an array
 public class Second_Largest_Elin_Array {

@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.sort;
 
 public class ChkArrayisSorted {
     static boolean isSorted(int[] arr, int n)
@@ -17,7 +17,8 @@ public class ChkArrayisSorted {
 
     public static void main(String args[])
     {
-        int[] arr = {7, 2, 30, 10};
+        //int[] arr = {7, 2, 30, 10};
+        int[] arr = {7, 20, 30, 10};
         int n = 4;
 
         System.out.println(isSorted(arr, n));

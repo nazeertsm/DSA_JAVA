@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.roateArray;
 //Efficient Approach:
 public class LeftRotateanArraybyDplaces3 {
     static void leftRotate(int[] arr, int d, int n)

@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.basicArray;
 
 // Java program to illustrate creating an array
 // of integers,  puts some values in the array,

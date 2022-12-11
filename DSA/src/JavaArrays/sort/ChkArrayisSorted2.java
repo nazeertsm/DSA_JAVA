@@ -1,4 +1,4 @@
-package JavaArrays;
+package JavaArrays.sort;
 // Recursive approach to check if an
 // Array is sorted or not
 public class ChkArrayisSorted2 {
