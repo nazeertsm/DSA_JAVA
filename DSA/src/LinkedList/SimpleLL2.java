@@ -1,9 +1,9 @@
 package LinkedList;
 
-class Node{
+class NodeM{
     int data;
-    NodeM next;
-    Node(int x){
+    NodeM2 next;
+    NodeM(int x){
         data=x;
         next=null;
     }
@@ -13,16 +13,16 @@ class SimpleLL2 {
 
     public static void main(String args[])
     {
-        NodeM head=new NodeM(10);
-        head.next=new NodeM(20);
-        head.next.next=new NodeM(30);
-        head.next.next.next=new NodeM(40);
+        NodeM2 head=new NodeM2(10);
+        head.next=new NodeM2(20);
+        head.next.next=new NodeM2(30);
+        head.next.next.next=new NodeM2(40);
         printlist(head);
 
     }
 
-    public static void printlist(NodeM head){
-        NodeM curr=head;
+    public static void printlist(NodeM2 head){
+        NodeM2 curr=head;
         while(curr!=null){
             System.out.print(curr.data+" ");
             curr=curr.next;

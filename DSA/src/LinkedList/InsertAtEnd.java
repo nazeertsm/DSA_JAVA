@@ -1,21 +1,21 @@
 package LinkedList;
 
-class NodeM {
+class NodeM2 {
     int data;
-    NodeM next;
+    NodeM2 next;
 
-    NodeM (int x) {
+    NodeM2 (int x) {
         data = x;
         next = null;
     }
 }
 
 public class InsertAtEnd {
-    static NodeM insertEnd (NodeM head, int x) {
-        NodeM temp = new NodeM(x);
+    static NodeM2 insertEnd (NodeM2 head, int x) {
+        NodeM2 temp = new NodeM2(x);
         if (head == null)
             return temp;
-        NodeM curr = head;
+        NodeM2 curr = head;
         while (curr.next != null) {
             curr = curr.next;
         }
@@ -24,7 +24,7 @@ public class InsertAtEnd {
     }
 
     public static void main (String args[]) {
-        NodeM head = null;
+        NodeM2 head = null;
         head = insertEnd(head, 10);
         head = insertEnd(head, 20);
         head = insertEnd(head, 30);
@@ -32,8 +32,8 @@ public class InsertAtEnd {
 
     }
 
-    public static void printlist (NodeM head) {
-        NodeM curr = head;
+    public static void printlist (NodeM2 head) {
+        NodeM2 curr = head;
         while (curr != null) {
             System.out.print(curr.data + " ");
             curr = curr.next;
