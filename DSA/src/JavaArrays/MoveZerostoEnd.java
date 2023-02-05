@@ -22,6 +22,9 @@ public class MoveZerostoEnd {
     }
 
     // function to print the array elements
+    // After we have finished processing new elements,
+    // all the non-zero elements are already at beginning of array.
+    // We just need to fill remaining array with 0's.
     static void printArray(int arr[], int n) {
         for (int i = 0; i < n; i++)
             System.out.print(arr[i] + " ");
@@ -29,7 +32,7 @@ public class MoveZerostoEnd {
 
     // Driver program to test above
     public static void main(String args[]) {
-        int arr[] = {0, 1, 9, 8, 4, 0, 0, 2,
+        int arr[] = {5, 1, 9, 8, 4, 0, 0, 2,
                 7, 0, 6, 0, 9};
         int n = arr.length;
 
